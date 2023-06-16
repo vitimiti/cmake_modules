@@ -4,14 +4,7 @@ A simple repository that holds premade cmake modules to more easily kickstart pr
 
 ## How to use
 
-Download the project and add the `cmake` directory to your `CMakeLists.txt`'s `CMAKE_MODULES_PATH`
-variable.
-
-For example:
-
-```cmake
-set(CMAKE_MODULES_PATH "${CMAKE_MODULES_PATH} /path/to/this/repository/cmake_modules/cmake")
-```
+Download the project and start using the modules as they are automatically appended.
 
 ## Current Modules
 
