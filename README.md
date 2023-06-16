@@ -4,7 +4,27 @@ A simple repository that holds premade cmake modules to more easily kickstart pr
 
 ## How to use
 
-Download the project and start using the modules as they are automatically appended.
+Download the project and do
+`list(APPEND CMAKE_MODULE_PATH ${path_to_project}/cmake` to start using the modules.
+
+For example, if you want to use `FetchContent`, you may do:
+
+```cmake
+# Project definition...
+
+include(FetchContent REQUIRED)
+
+FetchContent_Declare(
+  vitimiti_cmake_modules
+  GIT_REPOSITORY https://github.com/vitimiti/cmake_modules.git
+  GIT_TAG main)
+
+FetchContent_MakeAvailable(vitimiti_cmake_modules)
+
+list(APPEND CMAKE_MODULE_PATH ${vitimiti_cmake_modules_SOURCE_DIR}/cmake)
+
+# Rest of the project configuration...
+```
 
 ## Current Modules
 
