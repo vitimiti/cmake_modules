@@ -29,5 +29,3 @@ project(
   DESCRIPTION "Extra CMake modules"
   HOMEPAGE_URL "https://github.com/vitimiti/cmake_modules"
   LANGUAGES CXX)
-
-list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
