@@ -5,7 +5,7 @@ A simple repository that holds premade cmake modules to more easily kickstart pr
 ## How to use
 
 Download the project and do
-`list(APPEND CMAKE_MODULE_PATH ${path_to_project}/cmake` to start using the modules.
+`list(APPEND CMAKE_MODULE_PATH ${path_to_project}/cmake)` to start using the modules.
 
 For example, if you want to use `FetchContent`, you may do:
 
