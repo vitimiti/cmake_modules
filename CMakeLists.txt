@@ -25,7 +25,7 @@
 cmake_minimum_required(VERSION 3.25)
 project(
   vitimiti_cmake_modules
-  VERSION 0.1.0
+  VERSION 1.0.0
   DESCRIPTION "Extra CMake modules"
   HOMEPAGE_URL "https://github.com/vitimiti/cmake_modules"
   LANGUAGES CXX)
